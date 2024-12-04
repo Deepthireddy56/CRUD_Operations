@@ -49,22 +49,3 @@ const deleteRecord = (empNameToDelete) => {
   empInfo.innerHTML = "";
   employeeDetails.forEach(emp => addEmpInfoToTable(empInfo, emp));
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
