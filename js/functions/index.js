@@ -67,36 +67,4 @@ const deleteRecord = (empNameToDelete) => {
 
 
 
-// const addEmpInfoToTable = (empInfo, empInfoData) => {
-//     var trData = document.createElement("tr");
-//     var trDataDetails = `<tr>`;
-//     trDataDetails += `<td> ${empInfoData.empName} </td>`;
-//     trDataDetails += `<td> ${empInfoData.age} </td>`;
-//     trDataDetails += `<td> ${designations[empInfoData.designation]} </td>`;
-    // trDataDetails += `<td> <button id = '${empInfoData.empName}' onclick = 'editRecords(${empInfoData.empName})'>Edit</button>`;
-    // trDataDetails += `<button id = '${empInfoData.empName}' onclick = 'deleteRecord(${empInfoData.empName})'>Delete</button> </td>`;
-//     trDataDetails += `</tr>`;
   
-//     trData.innerHTML = trDataDetails;
-//     empInfo.appendChild(trData);
-//   };
-//   const editRecords = (empNameToEdit) => {
-//     const employee = employeeDetails.find(emp => emp.empName === empNameToEdit);
-//     if (employee) {
-//         empName.value = employee.empName;
-//         age.value = employee.age;
-//         designation.value = employee.designation;
-  
-//         // Remove the current record from the array for updating
-//         employeeDetails = employeeDetails.filter(emp => emp.empName !== empNameToEdit);
-//         empInfo.innerHTML = "";
-//         employeeDetails.forEach(emp => addEmpInfoToTable(empInfo, emp));
-//     }
-//   };
-//   const deleteRecord = (empNameToDelete) => {
-//     employeeDetails = employeeDetails.filter(emp => emp.empName !== empNameToDelete);
-
-//     // Refresh table
-//     empInfo.innerHTML = "";
-//     employeeDetails.forEach(emp => addEmpInfoToTable(empInfo, emp));
-// };  
